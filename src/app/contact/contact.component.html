@@ -1,0 +1,33 @@
+<div class="container-fluid bg" style="background-image: url(assets/background.jpg);">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 div1">
+            <p>ContactUs</p>
+            <h2>Here You Can Make A Reservation or Just Walkin to Our Cafe</h2><br>
+            <div class="div">
+                <h6>Phone Numbers:</h6>
+                <p>080-090-0990</p>
+                <p>080-090-0880</p>
+            </div><br><br>
+            <div class="div">
+                <h6>Emails</h6>
+                <p>hello@company.com</p>
+                <p>hello@info.com</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="div">
+                <h2 style="text-align: center;">Reservation Form</h2><hr><br>
+                <h6> Name : <br><input type="text" style="width: 300px;" [(ngModel)]="name"></h6>
+                <h6> Email Address : <br><input type="text" style="width: 300px;" [(ngModel)]="email"></h6>
+                <h6> Contact Number : <br><input type="text" style="width: 300px;" [(ngModel)]="contact"></h6>
+                <h6> Number of Guests : <br><input type="text" style="width: 300px;" [(ngModel)]="guests"></h6>
+                <h6>Date :<br> <input type="text" style="width: 300px;" [(ngModel)]="date"></h6>
+                <h6>Time :<br> <input type="text" style="width: 300px;" [(ngModel)]="time"></h6>
+                <h6> Message :<br> <input type="text" style="width: 300px;" [(ngModel)]="message"></h6><hr>
+                <p style="text-align: center;"><button class="btn">Make A Reservation</button></p>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
